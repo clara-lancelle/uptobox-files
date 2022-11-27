@@ -28,7 +28,7 @@ const TreeItem = ({ folder }) => {
           ))}
           {data.files.map((element) => (
             <li>
-              {element.file_name} <a href="#">(lire)</a>
+              {element.file_name}<a href="#">(lire)</a>
             </li>
           ))}
         </ul>
